@@ -3,7 +3,5 @@ salario = float(input("Qual é o seu salario ? "))
 anos = int(input("Quantos anos você vai pagar ? "))
 
 prestação = casa / (anos * 12)
-
-if prestação > 30% salario:
-   print(f"O emprestimo é negado")
-elif: prestação    
+minimo = salario * 30 /100
+  
