@@ -5,3 +5,7 @@ anos = int(input("Quantos anos você vai pagar ? "))
 prestação = casa / (anos * 12)
 minimo = salario * 30 /100
   
+if prestação <= minimo:
+   print(f"Emprestimo pode se concendido!")
+else:
+   print("Emprestimo Negado")
